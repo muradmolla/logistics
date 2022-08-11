@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <>
     <Navigation />
-    <main>
+    <main className="h-[1500px] bg-blue-dark">
     </main>
     </>
   )
@@ -14,4 +14,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>Q Logistics</title>

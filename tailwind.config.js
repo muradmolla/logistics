@@ -7,9 +7,12 @@ module.exports = {
   theme: {
     colors: {
       'blue': '#1c2430',
-      'blue-dark': '#1c2430',
+      'blue-dark': '#121821',
       'light-gray': '#eeeeee',
-      'orange': '#fbaf19'
+      'orange': '#fbaf19',
+      'white': "#ffffff",
+      'translucent': 'rgba(255,255,255,0.4)',
+      'transparent': 'transparent'
     },
     extend: {},
   },
