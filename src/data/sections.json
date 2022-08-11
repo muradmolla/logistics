@@ -1,0 +1,24 @@
+{
+    "sections": [
+        {
+            "id": "home",
+            "label": "Home"
+        },
+        {
+            "id": "why",
+            "label": "Why QLogistics?"
+        },
+        {
+            "id": "features",
+            "label": "Features"
+        },
+        {
+            "id": "product",
+            "label": "Product"
+        },
+        {
+            "id": "contact",
+            "label": "Contact"
+        }
+    ]
+}
