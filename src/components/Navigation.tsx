@@ -29,7 +29,7 @@ export default function Navigation() {
     const navClasses = 'absolute lg:static lg:flex items-center justify-around lg:bg-transparent bg-translucent top-[-2.5rem] right-0 z-10 translate-y-2/4 lg:translate-y-0 py-4'
     const derivedNavClasses = navActive ? navClasses : 'hidden ' + navClasses;
   return (
-    <header className='sticky top-0 py-9 bg-blue-dark'>
+    <header className='sticky z-10 top-0 py-9 bg-blue-dark'>
         <div className="container mx-auto flex justify-between p-3 sm:p-0">
             <div>
                 <img src={logoUrl} alt="logo"/>
