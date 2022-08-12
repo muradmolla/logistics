@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useImageUrl } from '../hooks/useImage';
-import { useSections } from '../hooks/useSections';
+import { useSectionsQuery } from '../hooks/useSections';
 
 import type { Section } from '../hooks/useSections';
 
@@ -10,7 +10,7 @@ export default function Navigation() {
     //TODO: change scrolledNavItem as user scrolls.
     const [scrolledNavItem, setScrolledNavItem] = useState(4);
 
-    const sections = useSections();
+    const sections = useSectionsQuery();
     
     const navRender = sections.map((section: Section) => {
         const activeClasses = scrolledNavItem === section.key ? ' bg-orange text-blue-dark' : ''; 

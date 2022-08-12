@@ -3,27 +3,31 @@
         {
             "id": "home",
             "label": "Home",
-            "content": {}
+            "content": [
+                    {"part": "header", "content": "Powerful Logistics Platform!"},
+                    {"part": "text", "content": "QLogistice is the next generation logistics platform."},
+                    {"part": "video", "content": "https://www.youtube.com/embed/9mdQPy26hGM"}
+            ]
         },
         {
             "id": "why",
             "label": "Why QLogistics?",
-            "content": {}
+            "content": []
         },
         {
             "id": "features",
             "label": "Features",
-            "content": {}
+            "content": []
         },
         {
             "id": "product",
             "label": "Product",
-            "content": {}
+            "content": []
         },
         {
             "id": "contact",
             "label": "Contact",
-            "content": {}
+            "content": []
         }
     ]
 }
