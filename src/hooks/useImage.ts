@@ -1,7 +1,8 @@
 import { graphql, useStaticQuery } from "gatsby"
 
 
-export const useImageUrl = (relative: String) => {
+//ASK: What would be a better solution.
+export function useImageUrl(relative: String) : string {
         const images = useStaticQuery(graphql`
         query images {
             allFile(filter: {sourceInstanceName: {eq: "images"}}) {
