@@ -2,23 +2,28 @@
     "sections": [
         {
             "id": "home",
-            "label": "Home"
+            "label": "Home",
+            "content": {}
         },
         {
             "id": "why",
-            "label": "Why QLogistics?"
+            "label": "Why QLogistics?",
+            "content": {}
         },
         {
             "id": "features",
-            "label": "Features"
+            "label": "Features",
+            "content": {}
         },
         {
             "id": "product",
-            "label": "Product"
+            "label": "Product",
+            "content": {}
         },
         {
             "id": "contact",
-            "label": "Contact"
+            "label": "Contact",
+            "content": {}
         }
     ]
 }

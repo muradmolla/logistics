@@ -22,5 +22,6 @@ export function useSections() {
 export type Section = {
         id: String,
         label: String,
-        key: Number
+        key: Number,
+        content: Object
 }
