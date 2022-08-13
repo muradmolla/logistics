@@ -6,7 +6,7 @@ const __SCROLL_MARGIN_TOP = 160;
 export default function useCurrentSection(): string | void {
     const [currentSection, setCurrentSection] = useState("");
 
-    window.addEventListener("scroll", () => {
+    useEvent("scroll", () => {
         const sections = document.querySelectorAll("section");
         let lastSection = '';
         let maxOffsetTop = 0;
