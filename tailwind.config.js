@@ -11,8 +11,10 @@ module.exports = {
       'light-gray': '#eeeeee',
       'orange': '#fbaf19',
       'white': "#ffffff",
+      'black': '#000000',
       'translucent': 'rgba(255,255,255,0.4)',
-      'transparent': 'transparent'
+      'transparent': 'transparent',
+      'translucent-black': 'rgba(0,0,0,0.4)',
     },
     extend: {},
   },

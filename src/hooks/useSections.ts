@@ -1,4 +1,5 @@
 import { graphql, useStaticQuery } from "gatsby";
+import { Key } from "react";
 
 class SectionController {
   section: Section;
@@ -23,11 +24,20 @@ class SectionController {
     const parentContent = this.contents.filter((i) => {
       return i.part == part
     });
-    if (parentContent.length === 0) {
+
+    if (!this.isPartExist(part)) {
       console.error(`No parts called ${part} in section.`);
       return '';
     }
     return parentContent[0].content;
+  }
+
+  isPartExist(part: string): boolean {
+    const parentContent = this.contents.filter((i) => {
+      return i.part == part
+    });
+
+    return parentContent.length !== 0;
   }
 }
 
@@ -86,6 +96,6 @@ export type SectionContent = {
 export type Section = {
         id: String,
         label: String,
-        key: Number,
+        key: Key,
         content: Array<SectionContent>
 }

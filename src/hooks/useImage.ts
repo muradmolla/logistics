@@ -1,7 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby"
 
 
-//ASK: What would be a better solution.
 export function useImageUrl(relative: String) : string {
         const images = useStaticQuery(graphql`
         query images {
