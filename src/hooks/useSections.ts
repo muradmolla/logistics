@@ -1,6 +1,12 @@
 import { graphql, useStaticQuery } from "gatsby";
 import { Key } from "react";
 
+
+type Content = Object;
+
+//Usage with this hook;
+// const content = new SectionController("home")
+// content.contentFromPart("header"p) gives the header
 class SectionController {
   section: Section;
   contents: Array<SectionContent>;
@@ -43,9 +49,10 @@ class SectionController {
 
 
 //ASK: Alternatives? Solutions?
-
-
 //Shouldn't use useSection at the moment.
+//Usage with this hook;
+// const content = useSection("home");
+// content.header gives the header
 const useSection = (sectionId: string) => {
   const sections = useSectionsQuery();
   const section = sections.filter((i: any) => {
@@ -53,7 +60,7 @@ const useSection = (sectionId: string) => {
   })[0];
   const subSection = section.content;
 
-  let content = {};
+  let content: Content = {};
   subSection.forEach((i: SectionContent) => {
     content[i.part] = i.content;
   });
