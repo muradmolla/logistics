@@ -12,6 +12,7 @@ module.exports = {
       'orange': '#fbaf19',
       'white': "#ffffff",
       'black': '#000000',
+      'gray': "#e4e5e7",
       'translucent': 'rgba(255,255,255,0.4)',
       'transparent': 'transparent',
       'translucent-black': 'rgba(0,0,0,0.4)',
