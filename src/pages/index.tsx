@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation"
 import Hero from "../components/Hero"
 import Features from "../components/Features"
 import Product from "../components/Product"
+import Contact from "../components/Contact"
 
 
 const IndexPage = () => {
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <Hero />
       <Features />
       <Product />
+      <Contact />
     </main>
     </>
   )
