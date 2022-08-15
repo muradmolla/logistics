@@ -58,7 +58,16 @@
         {
             "id": "contact",
             "label": "Contact",
-            "content": []
+            "content": [
+                {"part": "header", "content": "Contact"},
+                {"part": "leftHeader", "content": "So Simple, So Powerful!"},
+                {"part": "leftSubtext", "content": "Got a question? We are here to help! Fill up the form to get in touch with us on your enquiries."},
+                {"part": "FormHeader", "content": "CONTACT US"},
+                {"part": "formFullname", "content": "Fullname"},
+                {"part": "formEmail", "content": "Email"},
+                {"part": "formTextarea", "content": "Describe your project"},
+                {"part": "formSend", "content": "Send"}
+            ]
         }
     ]
 }
